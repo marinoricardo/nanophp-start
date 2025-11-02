@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0a54b3fe661aa334addb59c3ac0c773c",
+    "packages": [
+        {
+            "name": "marinoricardo/nanophp",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marinoricardo/nanophp.git",
+                "reference": "933a14d4db2d5c78a4d0f76d61e2fb3f9974cf39"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marinoricardo/nanophp/zipball/933a14d4db2d5c78a4d0f76d61e2fb3f9974cf39",
+                "reference": "933a14d4db2d5c78a4d0f76d61e2fb3f9974cf39",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Core\\": "core/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marino Ricardo",
+                    "email": "marinoricardo814@gmail.com"
+                }
+            ],
+            "description": "NanoPHP - micro framework PHP puro e leve",
+            "support": {
+                "issues": "https://github.com/marinoricardo/nanophp/issues",
+                "source": "https://github.com/marinoricardo/nanophp/tree/v1.0.0"
+            },
+            "time": "2025-10-30T18:44:06+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "marinoricardo/nanophp",
+  "description": "NanoPHP - micro framework PHP puro e leve",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marino Ricardo",
+      "email": "marinoricardo814@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Core\\": "core/"
+    }
+  }
+}
