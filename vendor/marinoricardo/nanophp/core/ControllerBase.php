@@ -16,6 +16,24 @@ abstract class ControllerBase
 
     protected function error(string $message, int $code = 404): array
     {
-        return ['error' => $message, 'status' => $code];
+        return ['message' => $message, 'status' => $code];
     }
+
+    // Renderiza view sem dados
+
+    /**
+     * @throws \Exception
+     */
+    protected function view(string $path): void
+    {
+        $basePath = dirname(__DIR__, 2);
+        $file = $basePath . '/App/Views/' . $path . '.php';
+
+        if (!file_exists($file)) {
+            throw new \Exception("View '$path' não encontrada! ($file)");
+        }
+
+        include $file; // <-- Apenas inclui (não dá return)
+    }
+
 }

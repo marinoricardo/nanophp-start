@@ -2,24 +2,17 @@
     "packages": [
         {
             "name": "marinoricardo/nanophp",
-            "version": "v1.0.0",
-            "version_normalized": "1.0.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/marinoricardo/nanophp.git",
-                "reference": "933a14d4db2d5c78a4d0f76d61e2fb3f9974cf39"
-            },
+            "version": "dev-main",
+            "version_normalized": "dev-main",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/marinoricardo/nanophp/zipball/933a14d4db2d5c78a4d0f76d61e2fb3f9974cf39",
-                "reference": "933a14d4db2d5c78a4d0f76d61e2fb3f9974cf39",
-                "shasum": ""
+                "type": "path",
+                "url": "../NanoPHP",
+                "reference": "4038045f5d81182de56e91c539f87c57ff8bee40"
             },
             "require": {
                 "ext-pdo": "*",
                 "php": ">=8.0"
             },
-            "time": "2025-10-30T18:44:06+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -27,7 +20,6 @@
                     "Core\\": "core/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -38,9 +30,8 @@
                 }
             ],
             "description": "NanoPHP - micro framework PHP puro e leve",
-            "support": {
-                "issues": "https://github.com/marinoricardo/nanophp/issues",
-                "source": "https://github.com/marinoricardo/nanophp/tree/v1.0.0"
+            "transport-options": {
+                "relative": true
             },
             "install-path": "../marinoricardo/nanophp"
         }

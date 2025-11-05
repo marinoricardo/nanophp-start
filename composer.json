@@ -12,8 +12,14 @@
     }
   ],
   "require": {
-    "marinoricardo/nanophp": "1.0.0"
+    "marinoricardo/nanophp": "*"
   },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../NanoPHP"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "App\\": "App/"

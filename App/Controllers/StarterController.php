@@ -6,8 +6,14 @@ use Core\ControllerBase;
 
 class StarterController extends ControllerBase
 {
-    public function index(): array
+    /**
+     * @throws \Exception
+     */
+    public function index()
     {
-        return $this->info("NanoPHP running Successfully", 200);
+        $data = ["message" => "Welcome", "success" => "true", "age" => 22];
+
+        return $this->success($data);
     }
+
 }

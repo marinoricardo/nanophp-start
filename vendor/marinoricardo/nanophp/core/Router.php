@@ -15,7 +15,6 @@ class Router
     public function dispatch(string $method, string $uri): void
     {
         header('Content-Type: application/json; charset=utf-8');
-
         $method = strtoupper($method);
         $path = rtrim(parse_url($uri, PHP_URL_PATH), '/') ?: '/';
         $request = new Request();
